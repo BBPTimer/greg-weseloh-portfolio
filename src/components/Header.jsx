@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header>
-      <ButtonGroup orientation={matches ? "horizontal" : "vertical"}>
+      <ButtonGroup size={matches ? "large" : "small"}>
         <Button variant="contained" startIcon={<HomeIcon />}>
           <Link to="/">Home</Link>
         </Button>
