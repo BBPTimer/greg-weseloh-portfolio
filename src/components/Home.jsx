@@ -9,7 +9,7 @@ const Home = () => {
         src="/headshot.png"
         sx={{ width: 100, height: 100, margin: "auto" }}
       />
-      <Table sx={{ width: "50%", margin: "auto" }}>
+      <Table sx={{ width: "75%", margin: "auto" }}>
         <TableBody>
           <TableRow>
             <TableCell>Who I Am</TableCell>

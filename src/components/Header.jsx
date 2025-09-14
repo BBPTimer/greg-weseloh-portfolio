@@ -8,11 +8,11 @@ import ContactPageIcon from '@mui/icons-material/ContactPage';
 const Header = () => {
   return (
     <header>
-      <ButtonGroup size="large">
-        <Link to="/" ><Button variant="contained" startIcon={<HomeIcon />}>Home</Button></Link>
-        <Link to="/resume"><Button variant="contained" startIcon={<ArticleIcon />}>Resume</Button></Link>
-        <Link to="/projects"><Button variant="contained" startIcon={<BuildIcon />}>Projects</Button></Link>
-        <Link to="/contact"><Button variant="contained" startIcon={<ContactPageIcon />}>Contact</Button></Link>
+      <ButtonGroup orientation="vertical">
+        <Button variant="contained" startIcon={<HomeIcon />}><Link to="/" >Home</Link></Button>
+        <Button variant="contained" startIcon={<ArticleIcon />}><Link to="/resume">Resume</Link></Button>
+        <Button variant="contained" startIcon={<BuildIcon />}><Link to="/projects">Projects</Link></Button>
+        <Button variant="contained" startIcon={<ContactPageIcon />}><Link to="/contact">Contact</Link></Button>
       </ButtonGroup>
     </header>
   );

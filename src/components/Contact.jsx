@@ -6,18 +6,26 @@ const Contact = () => {
   return (
     <>
       <h1>Contact</h1>
-      <Link href="http://www.linkedin.com/in/gregweseloh" target="top">
-        <Button variant="contained" size="large" startIcon={<WorkIcon />}>
-          LinkedIn
-        </Button>
-      </Link>
+      <Button
+        href="http://www.linkedin.com/in/gregweseloh"
+        target="top"
+        variant="contained"
+        size="large"
+        startIcon={<WorkIcon />}
+      >
+        LinkedIn
+      </Button>
       <br />
-      <br />{" "}
-      <Link href="http://www.github.com/BBPTimer" target="top">
-        <Button variant="contained" size="large" startIcon={<CommitIcon />}>
-          GitHub
-        </Button>
-      </Link>
+      <br />
+      <Button
+        href="http://www.github.com/BBPTimer"
+        target="top"
+        variant="contained"
+        size="large"
+        startIcon={<CommitIcon />}
+      >
+        GitHub
+      </Button>
     </>
   );
 };

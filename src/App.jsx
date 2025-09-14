@@ -12,7 +12,9 @@ function App() {
   const theme = createTheme({
     palette: {
       primary: {
+        light: green[100],
         main: green[500],
+        dark: green[900],
         contrastText: "#ffffff"
       },
     },
