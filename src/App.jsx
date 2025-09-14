@@ -5,7 +5,7 @@ import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
-import { createTheme, ThemeProvider } from "@mui/material";
+import { createTheme, ThemeProvider, Typography } from "@mui/material";
 import { green } from "@mui/material/colors";
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
       <br />
       <br />
       <footer className="white-bg gray-hover">
-        &copy; {new Date().getFullYear()} Greg Weseloh LLC
+        <Typography variant="body2">&copy; {new Date().getFullYear()} Greg Weseloh LLC</Typography>
       </footer>
     </ThemeProvider>
   );
