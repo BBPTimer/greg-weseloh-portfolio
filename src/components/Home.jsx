@@ -19,7 +19,7 @@ const Home = () => {
             </TableCell>
           </TableRow>
           <TableRow>
-            <TableCell>What I Can Do</TableCell>
+            <TableCell>What I Do</TableCell>
             <TableCell>
               Knowledgeable in Java, JavaScript, SQL, and PowerShell.
             </TableCell>
