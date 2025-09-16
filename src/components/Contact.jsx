@@ -12,6 +12,7 @@ const Contact = () => {
         variant="contained"
         size="large"
         startIcon={<WorkIcon />}
+        disableElevation
       >
         LinkedIn
       </Button>
@@ -23,6 +24,7 @@ const Contact = () => {
         variant="contained"
         size="large"
         startIcon={<CommitIcon />}
+        disableElevation
       >
         GitHub
       </Button>

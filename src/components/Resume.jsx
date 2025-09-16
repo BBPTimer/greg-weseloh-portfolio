@@ -11,6 +11,7 @@ const Resume = () => {
         size="large"
         startIcon={<DownloadIcon />}
         download
+        disableElevation
       >
         Download
       </Button>
