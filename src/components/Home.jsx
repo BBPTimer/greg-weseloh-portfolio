@@ -3,7 +3,7 @@ import { Avatar, Table, TableBody, TableCell, TableRow } from "@mui/material";
 const Home = () => {
   return (
     <>
-      <h1>Home</h1>
+      <br />
       <Avatar
         alt="Greg Weseloh"
         src="/headshot.png"
