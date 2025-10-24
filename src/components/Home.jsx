@@ -21,7 +21,7 @@ const Home = () => {
           <TableRow>
             <TableCell>What I Do</TableCell>
             <TableCell>
-              Knowledgeable in Java, JavaScript, SQL, and PowerShell.
+              Knowledgeable in Java, JavaScript, SQL, PowerShell, and AWS EC2.
             </TableCell>
           </TableRow>
           <TableRow>

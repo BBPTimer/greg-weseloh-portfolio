@@ -23,6 +23,22 @@ const Projects = () => {
           <TableRow>
             <TableCell>
               <Link
+                href="https://github.com/BBPTimer/nongame-db"
+                target="top"
+                sx={{ textAlign: "left" }}
+              >
+                The Nongame! DB
+              </Link>
+            </TableCell>
+            <TableCell>
+              Full-stack therapy board game using React for frontend and
+              Java/Spring (Boot) for backend
+            </TableCell>
+            <TableCell>React, Java/Spring (Boot)</TableCell>
+          </TableRow>
+          <TableRow>
+            <TableCell>
+              <Link
                 href="https://nongame.app"
                 target="top"
                 sx={{ textAlign: "left" }}
@@ -30,8 +46,8 @@ const Projects = () => {
                 The Nongame!
               </Link>
             </TableCell>
-            <TableCell>Full-stack therapy board game using React for frontend and Spring for backend</TableCell>
-            <TableCell>React, Spring</TableCell>
+            <TableCell>Therapy board game using React</TableCell>
+            <TableCell>React</TableCell>
           </TableRow>
           <TableRow>
             <TableCell>
@@ -82,7 +98,9 @@ const Projects = () => {
                 LaunchCode Graduation Countdown
               </Link>
             </TableCell>
-            <TableCell>School graduation calendar using JavaScript DOM</TableCell>
+            <TableCell>
+              School graduation calendar using JavaScript DOM
+            </TableCell>
             <TableCell>JavaScript</TableCell>
           </TableRow>
         </TableBody>
