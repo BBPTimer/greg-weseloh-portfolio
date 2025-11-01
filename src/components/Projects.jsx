@@ -31,10 +31,10 @@ const Projects = () => {
               </Link>
             </TableCell>
             <TableCell>
-              Full-stack therapy board game using React for frontend and
-              Java/Spring (Boot) for backend
+              Full-stack therapy board game using React for frontend, and
+              Java/Spring (Boot) and SQL for backend
             </TableCell>
-            <TableCell>React, Java/Spring (Boot)</TableCell>
+            <TableCell>React, Java/Spring (Boot), SQL</TableCell>
           </TableRow>
           <TableRow>
             <TableCell>
