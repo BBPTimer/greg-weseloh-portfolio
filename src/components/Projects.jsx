@@ -78,6 +78,22 @@ const Projects = () => {
           <TableRow>
             <TableCell>
               <Link
+                href="https://pagefinder.nongame.app"
+                target="top"
+                sx={{ textAlign: "left" }}
+              >
+                PageFinder
+              </Link>
+            </TableCell>
+            <TableCell>
+              Search for book and convert page number to percent read, and back
+              again
+            </TableCell>
+            <TableCell>React, Google Books API</TableCell>
+          </TableRow>
+          <TableRow>
+            <TableCell>
+              <Link
                 href="https://bbptimer.github.io/actoolkit/"
                 target="top"
                 sx={{ textAlign: "left" }}
