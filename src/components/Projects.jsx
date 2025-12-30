@@ -31,7 +31,7 @@ const Projects = () => {
               </Link>
             </TableCell>
             <TableCell>
-              Pet respiratory rate app with MUI X data visualization
+              Pet respiratory rate monitoring app with MUI X data visualization
             </TableCell>
             <TableCell>React, Material UI, MUI X</TableCell>
           </TableRow>
