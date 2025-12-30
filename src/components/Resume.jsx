@@ -1,5 +1,5 @@
-import { Button } from "@mui/material";
 import DownloadIcon from "@mui/icons-material/Download";
+import { Button } from "@mui/material";
 
 const Resume = () => {
   return (
@@ -17,8 +17,11 @@ const Resume = () => {
       </Button>
       <br />
       <br />
-      <div class="container">
-        <iframe class="responsive-iframe" src="/GregWeselohResume.pdf"></iframe>
+      <div className="container">
+        <iframe
+          className="responsive-iframe"
+          src="/GregWeselohResume.pdf"
+        ></iframe>
       </div>
     </>
   );
