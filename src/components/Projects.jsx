@@ -23,6 +23,21 @@ const Projects = () => {
           <TableRow>
             <TableCell>
               <Link
+                href="https://respirate.app"
+                target="top"
+                sx={{ textAlign: "left" }}
+              >
+                RespiRate
+              </Link>
+            </TableCell>
+            <TableCell>
+              Pet respiratory rate app with MUI X data visualization
+            </TableCell>
+            <TableCell>React, Material UI, MUI X</TableCell>
+          </TableRow>
+          <TableRow>
+            <TableCell>
+              <Link
                 href="https://github.com/BBPTimer/nongame-db"
                 target="top"
                 sx={{ textAlign: "left" }}
@@ -32,9 +47,9 @@ const Projects = () => {
             </TableCell>
             <TableCell>
               Full-stack therapy board game using React for frontend, and
-              Java/Spring (Boot) and SQL for backend
+              Java/Spring Boot and SQL for backend
             </TableCell>
-            <TableCell>React, Java/Spring (Boot), SQL</TableCell>
+            <TableCell>React, Java/Spring Boot, SQL</TableCell>
           </TableRow>
           <TableRow>
             <TableCell>
@@ -78,7 +93,7 @@ const Projects = () => {
           <TableRow>
             <TableCell>
               <Link
-                href="https://pagefinder.nongame.app"
+                href="https://pagefinderr.netlify.app"
                 target="top"
                 sx={{ textAlign: "left" }}
               >
@@ -102,21 +117,6 @@ const Projects = () => {
               </Link>
             </TableCell>
             <TableCell>Therapist tool using JavaScript DOM</TableCell>
-            <TableCell>JavaScript</TableCell>
-          </TableRow>
-          <TableRow>
-            <TableCell>
-              <Link
-                href="https://bbptimer.github.io/countdown/"
-                target="top"
-                sx={{ textAlign: "left" }}
-              >
-                LaunchCode Graduation Countdown
-              </Link>
-            </TableCell>
-            <TableCell>
-              School graduation calendar using JavaScript DOM
-            </TableCell>
             <TableCell>JavaScript</TableCell>
           </TableRow>
         </TableBody>

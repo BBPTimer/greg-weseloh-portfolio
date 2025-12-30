@@ -21,8 +21,15 @@ const Home = () => {
           <TableRow>
             <TableCell>What I Do</TableCell>
             <TableCell>
-              Knowledgeable in Java, JavaScript, SQL, PowerShell, Bash, and AWS
-              EC2.
+              Knowledgeable in:
+              <ul>
+                <li>JavaScript, React</li>
+                <li>Java, Spring Boot</li>
+                <li>SQL</li>
+                <li>PowerShell</li>
+                <li>Batch, Bash</li>
+                <li>AWS EC2</li>
+              </ul>
             </TableCell>
           </TableRow>
           <TableRow>
